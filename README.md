@@ -1,4 +1,4 @@
-'__Estrutura de Dados em Python__'
+__#Estrutura de Dados em Python__
 
 Bem-vindo ao repositório de questões da discipliba Estrutura de Dados da Universidade de Brasília(UnB).
 Este repositório contém uma coleção de exercícios e exemplos de código voltados para o estudo e a prática de estruturas de dados utilizando a linguagem Python. 
