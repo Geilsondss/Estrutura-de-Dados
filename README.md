@@ -13,4 +13,4 @@ Neste repositório, você encontrará questões de:
 
 Contribuições são bem-vindas! Se você deseja adicionar novas questões, melhorar os códigos existentes ou corrigir erros, sinta-se à vontade para abrir um pull request.
 
-Obrigado a todos
+Obrigado a tod@s! 🤖
