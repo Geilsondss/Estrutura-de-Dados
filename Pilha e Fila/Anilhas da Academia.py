@@ -16,23 +16,22 @@ class Academia:
     
     def conferir(self):
         return self.items[0]
+    
     def printar(self):
         if len(self.items) != 0:
-            soma = anilha
-            cont = 1
-            acabou = 0
+            soma = 0
+            cont = 0
             for i in range(len(self.items)):
-                if peso.conferir() != anilha:
-                    soma += peso.conferir()
-                    print(f'Peso retirado: {peso.retirar()}')
-                    cont += 1
-            if anilha in self.items:
-                print(f'Peso retirado: {anilha}')
-                print(f'Anilhas retiradas: {cont}')
-                print(f'Peso total movimentado: {soma}')
-            else:
-                print(f'Anilhas retiradas: {cont - 1}')
-                print(f'Peso total movimentado: {soma - anilha}')
+                cont += 1
+                soma += peso.conferir()
+                print(f'Peso retirado: {peso.conferir()}')
+                if peso.conferir() == anilha:
+                    break
+                else:
+                    peso.retirar()
+                    
+            print(f'Anilhas retiradas: {cont}')
+            print(f'Peso total movimentado: {soma}')
         
 peso = Academia() 
 while True:
